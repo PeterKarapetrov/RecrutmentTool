@@ -28,7 +28,7 @@ namespace RecrutmentTool.Controllers
 
             if (newJobId != 0)
             {
-                return CreatedAtRoute("Interviews", job);
+                return CreatedAtAction("Get", new { skill = job.Skills.First() }, job);
             }
 
             return BadRequest("Job create failed!");

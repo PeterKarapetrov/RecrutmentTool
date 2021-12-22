@@ -20,6 +20,7 @@ namespace RecrutmentTool.Controllers
         }
 
         [HttpGet]
+        [ActionName("Interviews")]
         public ActionResult<IEnumerable<InterviewGetDTOModel>> Get()
         {
             return this.interviewService.GetAll().ToArray();
