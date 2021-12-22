@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RecrutmentTool.Data;
-using RecrutmentTool.Data.ModelDTOs.HttpGet;
+using RecrutmentTool.Models.ModelDTOs.HttpGet;
 using RecrutmentTool.Data.Models;
 using System;
 using System.Collections.Generic;

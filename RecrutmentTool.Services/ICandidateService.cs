@@ -1,11 +1,7 @@
-﻿using RecrutmentTool.Data.ModelDTOs.HttpDelete;
-using RecrutmentTool.Data.ModelDTOs.HttpGet;
-using RecrutmentTool.Data.ModelDTOs.HttpPost;
-using RecrutmentTool.Data.ModelDTOs.HttpPut;
-using RecrutmentTool.Data.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using RecrutmentTool.Models.ModelDTOs.HttpDelete;
+using RecrutmentTool.Models.ModelDTOs.HttpGet;
+using RecrutmentTool.Models.ModelDTOs.HttpPost;
+using RecrutmentTool.Models.ModelDTOs.HttpPut;
 
 namespace RecrutmentTool.Services
 {

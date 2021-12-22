@@ -1,5 +1,5 @@
 ﻿using RecrutmentTool.Data;
-using RecrutmentTool.Data.ModelDTOs.HttpGet;
+using RecrutmentTool.Models.ModelDTOs.HttpGet;
 using System.Collections.Generic;
 using System.Linq;
 

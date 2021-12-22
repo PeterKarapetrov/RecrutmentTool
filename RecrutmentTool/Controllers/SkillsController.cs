@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RecrutmentTool.Data.ModelDTOs.HttpGet;
+using RecrutmentTool.Models.ModelDTOs.HttpGet;
 using RecrutmentTool.Services;
 using System.Collections.Generic;
 using System.Linq;
-
 
 namespace RecrutmentTool.Controllers
 {

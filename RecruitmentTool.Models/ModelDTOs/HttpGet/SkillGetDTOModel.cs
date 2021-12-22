@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace RecrutmentTool.Data.ModelDTOs.HttpGet
+namespace RecrutmentTool.Models.ModelDTOs.HttpGet
 {
     public class SkillGetDTOModel
     {

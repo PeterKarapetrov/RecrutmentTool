@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RecruitmentTool.Models\RecruitmentTool.Models.csproj" />
     <ProjectReference Include="..\RecrutmentTool.Data\RecrutmentTool.Data.csproj" />
   </ItemGroup>
 

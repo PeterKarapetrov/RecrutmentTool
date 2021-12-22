@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RecrutmentTool.Data.ModelDTOs.HttpPost
+namespace RecrutmentTool.Models.ModelDTOs.HttpPost
 {
     public class JobPostDTOModel
     {

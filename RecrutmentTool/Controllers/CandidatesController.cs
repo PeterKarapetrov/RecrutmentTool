@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RecrutmentTool.Data.ModelDTOs.HttpDelete;
-using RecrutmentTool.Data.ModelDTOs.HttpGet;
-using RecrutmentTool.Data.ModelDTOs.HttpPost;
-using RecrutmentTool.Data.ModelDTOs.HttpPut;
+using RecrutmentTool.Models.ModelDTOs.HttpDelete;
+using RecrutmentTool.Models.ModelDTOs.HttpGet;
+using RecrutmentTool.Models.ModelDTOs.HttpPost;
+using RecrutmentTool.Models.ModelDTOs.HttpPut;
 using RecrutmentTool.Services;
 
 

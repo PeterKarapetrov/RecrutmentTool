@@ -1,12 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RecrutmentTool.Data.ModelDTOs.HttpGet;
-using RecrutmentTool.Data.ModelDTOs.HttpPost;
-using RecrutmentTool.Data.Models;
+using RecrutmentTool.Models.ModelDTOs.HttpGet;
+using RecrutmentTool.Models.ModelDTOs.HttpPost;
 using RecrutmentTool.Services;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace RecrutmentTool.Controllers
 {

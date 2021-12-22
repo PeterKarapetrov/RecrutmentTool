@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecrutmentTool.Data", "Recr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecrutmentTool.Services", "RecrutmentTool.Services\RecrutmentTool.Services.csproj", "{E5D17CAF-E4E4-45E0-9AD6-D0093677783F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitmentTool.Models", "RecruitmentTool.Models\RecruitmentTool.Models.csproj", "{A24B8E5F-186A-4608-9F33-7F16D01D4E40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E5D17CAF-E4E4-45E0-9AD6-D0093677783F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5D17CAF-E4E4-45E0-9AD6-D0093677783F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5D17CAF-E4E4-45E0-9AD6-D0093677783F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24B8E5F-186A-4608-9F33-7F16D01D4E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24B8E5F-186A-4608-9F33-7F16D01D4E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24B8E5F-186A-4608-9F33-7F16D01D4E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24B8E5F-186A-4608-9F33-7F16D01D4E40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

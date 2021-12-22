@@ -1,48 +1,49 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace RecrutmentTool.Data.ModelDTOs.HttpPut
+namespace RecrutmentTool.Models.ModelDTOs.HttpPost
 {
-    public class CandidatePutDTOModel
+    public class CandidatePostDTOModel
     {
-
-        public CandidatePutDTOModel()
+        public CandidatePostDTOModel()
         {
             this.Skills = new List<string>();
         }
 
+        [Required]
         [MinLength(2)]
         [MaxLength(50)]
         public string FirstName { get; set; }
 
+        [Required]
         [MinLength(2)]
         [MaxLength(50)]
         public string LastName { get; set; }
 
+        [Required]
         [EmailAddress]
         public string Email { get; set; }
 
-        [MinLength(2)]
-        [MaxLength(255)]
+        [Required]
         public string Bio { get; set; }
 
         public string BirthDate { get; set; }
 
+        [Required]
         [MinLength(2)]
         [MaxLength(50)]
         public string RecruiterLastName { get; set; }
 
+        [Required]
         [EmailAddress]
         public string RecruiterEmail { get; set; }
 
-        [MinLength(2)]
-        [MaxLength(50)]
+
         public string RecruiterCountry { get; set; }
 
+        [Required]
         public ICollection<string> Skills { get; set; }
     }
 }
