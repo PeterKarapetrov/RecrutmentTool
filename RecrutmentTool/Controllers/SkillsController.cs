@@ -36,7 +36,7 @@ namespace RecrutmentTool.Controllers
             return BadRequest($"No skill with Id: {id}");
         }
 
-        [HttpGet]
+        [HttpGet("active")]
         public ActionResult<IEnumerable<SkillGetDTOModel>> Get()
         {
             var skillsModel = this.skillService.GetActiveSkills().ToList();
